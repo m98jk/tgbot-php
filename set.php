@@ -1,10 +1,10 @@
 <?php
 // Load composer
 require __DIR__ . '/vendor/autoload.php';
-
-$bot_api_key  = '5711743591:AAEuPAkRQbvycXhbOE19CrCjXyxbTZwFxYs';
-$bot_username = '@smcubeBot';
-$hook_url     = 'https://smcube.dev/phpbot/hook.php';
+include "./config.php";
+// $bot_api_key  = 'token';
+// $bot_username = 'bot_username';
+// $hook_url     = 'hook_url/hook.php';
 
 try {
     // Create Telegram API object
